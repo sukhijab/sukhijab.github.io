@@ -1,6 +1,6 @@
 ## Globally Optimal Safe Robot Learning in Higher Dimensioms
 
-This is a blog about our recent work on globally safe robot learning in higher dimensions.
+This is a blog about our recent work on GoSafe.
 
 
 A recurring and time-consuming problem in control is the tuning of controller parameters.
