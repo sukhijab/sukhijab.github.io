@@ -1,1 +1,12 @@
 theme: jekyll-theme-midnight
+
+title: [GoSafe in high dimension]
+description: [Webpage for GoSafe results]
+baseurl: ""
+paginate: 1
+values:
+  layout: single
+
+author: Bhavya Sukhija
+url: https://sukhijab.github.io/
+baseurl: ""
