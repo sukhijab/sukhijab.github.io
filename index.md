@@ -1,4 +1,4 @@
-## Globally Safe Robot Learning in Higher Dimensioms
+## Globally Optimal Safe Robot Learning in Higher Dimensioms
 
 This is a blog about our recent work on globally safe robot learning in higher dimensions.
 
