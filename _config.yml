@@ -1,1 +1,4 @@
 theme: jekyll-theme-midnight
+# SITE CONFIGURATION
+baseurl: ""
+url: "https://sukhijab.github.io"
