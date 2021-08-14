@@ -3,7 +3,7 @@ layout: default
 ---
 
 <h1> Globally Optimal Safe Robot Learning in Higher Dimensioms</h1>
-<p>This is a blog about our recent work on globally safe robot learning in higher dimensions.</p>
+<p>This is a blog about our recent work on GoSafe.</p>
 <p> A recurring and time-consuming problem in control is the tuning of controller parameters.
 Learning policies from data enables the automation of this tedious process. However, many of the data based learning approaches provide no guarantees on the safety of the system during the optimizing process. This becomes a major concern when optimizing directly on hardware systems and can lead to hardware damage. 
 Bayesian optimization is a sample-efficient black-box optimization method, which has been successfully applied to perform parameter tuning for robotic systems without risking system failure. Existing approaches such as SafeOpt are able to find optimal parameters while providing high probability safety guarantees. However, they are restricted to a local region around an initially given safe controller parameterization. Thus, the optimum they find might only be a local optimum.
