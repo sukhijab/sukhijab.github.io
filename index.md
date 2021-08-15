@@ -12,3 +12,11 @@ A recurring and time-consuming problem in control is the tuning of controller pa
     We apply our method to tune a operational space impedance controller for the Franka Emika Panda robot arm in hardware and simulation.
     
 ![experiments](videos/hardware_experiments.mp4)
+
+
+
+# References:
+GoSafe: Globally Optimal Safe Robot Learning: https://arxiv.org/abs/2105.13281
+Safe controller optimization for quadrotors with Gaussian processes: https://ieeexplore.ieee.org/document/7487170
+Bayesian Optimization with Safety Constraints: Safe and Automatic Parameter Tuning in Robotics: https://arxiv.org/abs/1602.04450
+Safe Exploration for Optimization with Gaussian Processes: http://proceedings.mlr.press/v37/sui15.html
