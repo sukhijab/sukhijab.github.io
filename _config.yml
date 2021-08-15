@@ -1,7 +1,7 @@
 theme: jekyll-theme-cayman
 # Title
-title: [GoSafe in High Dimensions]
-description: [Results of GoSafe on Franka Emika Panda Arm]
+title: GoSafe in High Dimensions
+description: Results of GoSafe on Franka Emika Panda Arm
 # SITE CONFIGURATION
 baseurl: ""
 url: "https://sukhijab.github.io"
