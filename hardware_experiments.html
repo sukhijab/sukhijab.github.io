@@ -4,9 +4,23 @@ layout: default
 <!DOCTYPE html>
 
 <h1> Globally Optimal Safe Robot Learning Hardware Experiments</h1>
+<p> We apply our algorithm to find optimal feedback gain matrix K of a operational space impedance controller for a path following task. 
+ The hardware we consider is the Franka Emika Panda seven DOF robot arm. The desired path is depicted in the figure below. </p>
+<img src="videos/hardware_exp_path.png" alt="Hardware experiments path" width="728" height="540">
+<p> We require the controller to follow the desired path as accurately as possible. This is especially necessary as the path is very close to the wall as depicted in the figure. 
+ This simulates a realistic task, where the end-effector is asked to pick an object on the one side of the wall and drop it on the other.</p>
+<p> We compare SafeOpt (SafeOptSwarm) with our method GoSafe Contextual. We run only 50 iterations for each algorithm. 
+Additionally, we evaluate our methods over three independent runs. </p>
+</p>The safe set for the underlying problem is connected. 
+ Hence given enough iterations, SafeOptSwarm should be able to discover the global optimum. 
+Nonetheless, as we restrict ourselves to 50 iterations, the question we want to investigate is whether global exploration of GoSafe can allow us to learn the optimum earlier.</p>
 <p> Below is a video of our hardware experiments. </p>
  <video width="720" height="540" class="demoVideo" controls>
       <source src="videos/hardware_experiments.webm" type="video/webm">
       <source src="videos/hardware_experiments.mp4" type=video/mp4>
       Your browser does not support the video tag.
 </video>
+<p> During our experiments, both approaches provide 100% safety in all three runs. 
+ However, as can be seen in figure below, the parameters recommended by our method perform considerably better than SafeOptSwarm. 
+This underlines the advantage of global exploration and our method. </p>
+<img src="videos/Hardware_results.png" alt="Hardware_results" width="540" height="540">
