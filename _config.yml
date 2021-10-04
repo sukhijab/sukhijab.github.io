@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
 # Title
-title: GoSafe in Higher Dimensions
+title: Contextual Globally Optimal Robot Learning With Safety Guarantees In Higher Dimensions
 description: Results of GoSafe on Franka Emika Panda Arm
 # SITE CONFIGURATION
 baseurl: ""
