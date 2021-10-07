@@ -9,7 +9,7 @@ layout: default
   Existing methods that can guarantee safety during exploration are either limited to finding local optima or to low dimensional systems. 
   In this work, we build upon the existing GoSafe algorithm to enable learning of globally optimal policies in high dimensional settings while still providing safety guarantees. 
   In particular, we introduce contextual GoSafe and demonstrate its applicability on a real robot arm. </p>
-
+<p><a href="hardware_experiments.html">See a video of our hardware experiments here.</a></p>
 <h2> Hardware Experiments: </h2>
 <p> We apply our algorithm to find optimal feedback gain matrix K of a operational space impedance controller for a path following task. 
  The hardware we consider is the Franka Emika Panda seven DOF robot arm. The desired path is depicted in the figure below. </p>
@@ -31,7 +31,7 @@ Nonetheless, as we restrict ourselves to 50 iterations, the question we want to 
  However, as can be seen in figure below, the parameters recommended by our method perform considerably better than SafeOptSwarm. 
 This underlines the advantage of global exploration and our method. </p>
 <img src="videos/Hardware_results.png" alt="Hardware_results" width="675" height="540">
-<p><a href="hardware_experiments.html">See a video of our hardware experiments here.</a></p>
+
 
 <h3> References: </h3>
 <p> Globally Optimal Safe Robot Learning: <a href=https://arxiv.org/abs/2105.13281> https://arxiv.org/abs/2105.13281</a> </p>
