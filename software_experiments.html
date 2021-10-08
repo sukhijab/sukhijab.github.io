@@ -16,6 +16,11 @@ not initialized well.</p>
       <source src="videos/8D_task.mp4" type=video/mp4>
       Your browser does not support the video tag.
 </video>
+<p> During our experiments, both approaches provide near 100% safety over the 20 independent runs (99.9% for our method and 100% for SafeOpt). 
+ However, as can be seen in figure below, the parameters recommended by our method perform considerably better than SafeOpt. In particular, SafeOpt fails to discover better 
+ parameters than our initial policy which is close to the optimum in the connected safe set where SafeOpt is initialized. Our method on the other hand, due to global exploration,
+can explore more safe regions and thereby also better policies.</p>
+<img src="videos/SafeOptGoSafe_ArmSimcomparison_8D.png" alt="8D_task_results" width="675" height="540">
 <h3> Following a desired path (11D task) </h3>
 <p> We require the controller to follow the desired path as accurately as possible. The task consists of a 7D state space and 4D parameter space. </p>
 <p> We compare SafeOptSwarm with our method Contextual GoSafe. </p>
@@ -24,4 +29,5 @@ not initialized well.</p>
       <source src="videos/11D_task.mp4" type=video/mp4>
       Your browser does not support the video tag.
 </video>
-
+<p> Both approaches provide 100% safety over the 20 independent run. Our method however is able to discover a better optimum as illustrate in the figure below. </p>
+<img src="videos/SafeOptGoSafe_ArmSimcomparison_11D.png" alt="11D_task_results" width="675" height="540">
