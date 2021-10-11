@@ -1,7 +1,7 @@
 theme: jekyll-theme-cayman
 # Title
-title: Contextual Globally Optimal Robot Learning With Safety Guarantees (GoSafeCon)
-description: Results of GoSafe on Franka Emika Panda Arm
+title: Summary of my research work
+description: My research projects
 # SITE CONFIGURATION
 baseurl: ""
 url: "https://sukhijab.github.io"
