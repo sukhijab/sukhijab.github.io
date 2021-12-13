@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<a href="../index.html">Home</a>
+<h1> Scalable Safe Explorationfor Global Optimization of Dynamical Systems</h1>
+<p>This is a blog about our recent work on GoSafe.</p>
+<p>  Safely learning policies from data is a major concern when optimizing directly on hardware systems since even a single constraint violation can lead to costly hardware damage. 
+  Existing methods that can guarantee safety during exploration are either limited to finding local optima or to low dimensional systems. 
+  In this work, we build upon the existing GoSafe algorithm to enable learning of globally optimal policies in high dimensional settings while still providing safety guarantees. 
+  In particular, we introduce globally optimal Safe (GoSafeOpt), a sample efficient safe global learning algorithm that can be applied to high dimensional systems. 
+  We demonstrate its applicability on a real robot arm. Our algorithm scales to the higher dimensions associated with the task and provides a better optima than existing methods. </p>
+<p><a href="software_experiments.html">See a video of our simulation experiments here.</a></p>
+<h2> Hardware Experiments: </h2>
+<p> We apply our algorithm to find optimal feedback gain matrix K of a operational space impedance controller for a path following task. 
+ The hardware we consider is the Franka Emika Panda seven DOF robot arm. The desired path is depicted in the figure below. </p>
+<img src="videos/hardware_exp_path.png" alt="Hardware experiments path" width="540" height="420">
+<p> We require the controller to follow the desired path as accurately as possible. This is especially necessary as the path is very close to the wall as depicted in the figure and we assume crashing into the wall would likely damage the robot and should be avoided. 
+ This simulates a realistic task, where the end-effector is asked to pick an object on the one side of the wall and drop it on the other.</p>
+<p> We compare SafeOpt (SafeOptSwarm) with our method GoSafeOpt. We run only 50 iterations for each algorithm. 
+Additionally, we evaluate our methods over three independent runs. </p>
+</p>To the best of our knowledge, the safe set for the underlying problem is connected. 
+ Hence given enough iterations, SafeOptSwarm should be able to discover the global optimum. 
+Nonetheless, as we restrict ourselves to 50 iterations, the question we want to investigate is whether global exploration of GoSafe can allow us to learn the optimum earlier.</p>
+<p> Below is a video of our hardware experiments. </p>
+ <video width="720" height="540" class="demoVideo" id="bgvid" loop muted controls>
+      <source src="videos/hardware_experiments.webm" type="video/webm">
+      <source src="videos/hardware_experiments.m4v" type=video/mp4>
+      Your browser does not support the video tag.
+</video>
+<p> During our experiments, both approaches provide 100% safety in all three runs. 
+ However, as can be seen in figure below, the parameters recommended by our method perform considerably better than SafeOptSwarm. 
+This underlines the advantage of global exploration and our method. </p>
+<img src="videos/Hardware_results.png" alt="Hardware_results" width="675" height="540">
+
+
+<h3> References: </h3>
+<p> Globally Optimal Safe Robot Learning: <a href=https://ieeexplore.ieee.org/document/9560738> https://ieeexplore.ieee.org/document/9560738</a> </p>
+<p> Safe controller optimization for quadrotors with Gaussian processes: <a href=https://ieeexplore.ieee.org/document/7487170> https://ieeexplore.ieee.org/document/7487170</a></p>
+<p> Bayesian Optimization with Safety Constraints: Safe and Automatic Parameter Tuning in Robotics: <a href=https://arxiv.org/abs/1602.04450> https://arxiv.org/abs/1602.04450</a></p>
+<p> Safe Exploration for Optimization with Gaussian Processes: <a href=http://proceedings.mlr.press/v37/sui15.html> http://proceedings.mlr.press/v37/sui15.html</a></p>
+
+
+<h4> Code: </h4>
+<p> The algorithm builds up on the <a href=https://github.com/befelix/SafeOpt> existing SafeOpt implementation.</a></p>
+<p> The full code is available <a href= https://github.com/Data-Science-in-Mechanical-Engineering/Contextual-GoSafe> here.</a></p>
