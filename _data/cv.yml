@@ -1,0 +1,88 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Bhavya Sukhija
+    - name: Date of Birth
+      value: 8th May 1996
+    - name: Languages
+      value: English, German, Hindi, Punjabi
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in Computer Science
+      institution: Eidgenössische Technische Hochschule, Zürich, Switzerland
+      year: 2023-ongoing
+      description:
+        - Sample-efficient active exploration of dynamical systems.
+        - title: Application of RL on robotics.
+          contents:
+                - Sample efficient algorithms that can directly be applied to robotics,
+                - Planning with learned models,
+                - Safe exploration,
+                - Non-episodic exploration.
+    - title: MSc. Robotics Systems and Control with distinction (GPA - 5.95/6.0)
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 2019-2021
+      description:
+        - Focus on control of dynamical systems and learning-based control.
+        - title: Master thesis at <a href= "https://las.inf.ethz.ch/"> Learning Adaptive Systems Lab</a> and <a href= "https://www.dsme.rwth-aachen.de">Institute for Data Science in Mechanical Engineering, RWTH Aachen University </a>.
+          contents:
+                - <a href="/GoSafeOpt/main_project.html"> Scalable Safe Exploration for Global Optimization of Dynamical Systems</a> (GPA - 6/6).
+                - Received ETH Medal for the thesis.
+    - title: BSc. Mechanical Engineering (GPA - 5.34/6.0)
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 2015-2018
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Teaching Assistant
+      institution: Eidgenössische Technische Hochschule, Zürich, Switzerland
+      year: Feb 2017 - ongoing
+      description:
+        - title: Courses.
+          contents:
+              - September 2022 - Present;  Introduction to Machine Learning and Probabilistic AI (taught by Prof. Andreas Krause)
+              - January 2021 - August 2022; Recursive Estimation (taughy by Prof. Raffaello D’Andrea for MSc. Robotics Systems and Control)
+              - September 2020 - December 2020 Control Systems I (taught by Prof. Lino Guzzella for Bsc. Mechanical Engineering) and Linear System Theory (taught by Dr. Marcello Colombino for MSc. Robotics Systems and Control)
+              - September 2018 - February 2019 and September 2019 - February 2020; Analysis III (taught by Prof. Francesca Da Lio and Prof. Alessandra Iozzi for BSc. Mechanical Engineering)
+              - February 2017 - June 2017 and February 2018 - June 2018; Mechanics II (taught by Prof. Dirk Mohr for BSc. Mechanical Engineering)
+    - title: Intern Risk Engineering Support
+      institution: Swiss Re Corporate Solutions, Zürich, Switzerland
+      year: Feb 2019 - Aug 2019
+      description:
+        - Develop models to predict maximum possible loss of power plants globally.
+        - Improve internal IT-infrastructure to facilitate a productive work environment.
+        - Support risk engineers in day-to-day activities.
+    - title: Intern Data Reporting
+      institution: ABB, Baden, Switzerland
+      year: Sep 2017 - Dec 2017
+      description:
+        - Clean and analyze supply chain data of all ABB divisions and develop intelligent dashboards using MS Power BI.
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2022
+      items: 
+        - ETH-Medal for Master thesis.
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Model-based RL.
+      items: 
+        - Sample-efficient exploration of dynamical systems.
+        - Continuous-time RL algorithms.
+        - Model-based Offline RL.
+        - Learning based control.
+        - Application to Robotics.
+    - title: Safe exploration.
+      items:
+        - Sample-efficient safe exploration methods with application to robotics.
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Football, Basketball or general ball sports. Watching sitcoms, the great british bake-off, 2000s Bollywood movies, and simply cooking (mostly Indian cuisine).

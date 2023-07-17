@@ -1,9 +1,14 @@
 ---
-layout: default
+title: "GoSafeOpt: Scalable Safe Exploration for Global Optimization of Dynamical Systems (Simulation Experiments)"
+layout: distill
+published: true
+date: 2023-06-08 13:58:00
+img: /assets/video/gosafeopt_videos/hardware_exp_path.png
+permalink: /GoSafeOpt/software_experiments.html
+tags: [Safe Learning, publication]
 ---
-<!DOCTYPE html>
-<a href="../index.html">Home</a> <a href="main_project.html">GoSafeOpt</a>
-<h1> Scalable Safe Explorationfor Global Optimization of Dynamical Systems</h1>
+
+<a href="{{ "/GoSafeOpt/main_project.html" | relative_url }}">Go back to GoSafeOpt</a>
 <p> We apply our algorithm to find optimal feedback gain matrix K of a operational space impedance controller for regulation and path following tasks. We perform 200 experiments
 for each of the tasks over 20 different random seeds. The simulation and experiment files are available <a href=https://github.com/Data-Science-in-Mechanical-Engineering/franka-emika-panda-simulation> here </a>.</p>
  
@@ -13,23 +18,23 @@ for each of the tasks over 20 different random seeds. The simulation and experim
 not initialized well.</p>
 <p> Below is a video of our 8D simulation task. </p>
  <video width="720" height="540" class="demoVideo" id="bgvid" loop muted controls>
-      <source src="videos/8D_task.webm" type="video/webm">
-      <source src="videos/8D_task.mp4" type=video/mp4>
+      <source src="/assets/video/gosafeopt_videos/8D_task.webm" type="video/webm">
+      <source src="/assets/video/gosafeopt_videos/8D_task.mp4" type=video/mp4>
       Your browser does not support the video tag.
 </video>
 <p> During our experiments, both approaches provide near 100% safety over the 20 independent runs (99.9% for our method and 100% for SafeOpt). 
  However, as can be seen in figure below, the parameters recommended by our method perform considerably better than SafeOpt. In particular, SafeOpt fails to discover better 
  parameters than our initial policy which is close to the optimum in the connected safe set where SafeOpt is initialized. Our method on the other hand, due to global exploration,
 can explore more safe regions and thereby also better policies.</p>
-<img src="videos/SafeOptGoSafe_ArmSimcomparison_8D.png" alt="8D_task_results" width="675" height="540">
+<img src="/assets/video/gosafeopt_videos/SafeOptGoSafe_ArmSimcomparison_8D.png" alt="8D_task_results" width="675" height="540">
 <h3> Following a desired path (11D task) </h3>
 <p> We require the controller to follow the desired path as accurately as possible. The task consists of a 7D state space and 4D parameter space. </p>
 <p> We compare SafeOptSwarm with our method GoSafeOpt. </p>
 <p> Below is a video of our 11D simulation task. </p>
  <video width="720" height="540" class="demoVideo" id="bgvid" loop muted controls>
-  <source src="videos/11D_task.webm" type="video/webm">    
-  <source src="videos/11D_task.mp4" type=video/mp4>
+  <source src="/assets/video/gosafeopt_videos/11D_task.webm" type="video/webm">    
+  <source src="/assets/video/gosafeopt_videos/11D_task.mp4" type=video/mp4>
       Your browser does not support the video tag.
 </video>
 <p> Both approaches provide 100% safety over the 20 independent run. Our method however is able to discover a better optimum as illustrated in the figure below. </p>
-<img src="videos/SafeOptGoSafe_ArmSimcomparison_11D.png" alt="11D_task_results" width="675" height="540">
+<img src="/assets/video/gosafeopt_videos/SafeOptGoSafe_ArmSimcomparison_11D.png" alt="11D_task_results" width="675" height="540">
