@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://sukhijab.github.io/sitemap.xml
