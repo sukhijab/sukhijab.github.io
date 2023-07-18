@@ -5,7 +5,7 @@ permalink: /
 subtitle: PhD at <a href='https://ethz.ch/de.html'>ETH Zürich</a>.
 profile:
   align: right
-  image: prof_pic.png
+  image: webpage_pic.jpeg
   image_circular: false # crops the image to make it circular
   address: >
     <p>OAT Y19, ETH Zürich</p>
