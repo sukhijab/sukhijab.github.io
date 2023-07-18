@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About Me
+title: Bhavya Sukhija
 permalink: /
 subtitle: PhD at <a href='https://ethz.ch/de.html'>ETH Zürich</a>.
 profile:
@@ -8,9 +8,7 @@ profile:
   image: prof_pic.png
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Floor 20, Office 19</p>
-    <p>Andreasstrasse 5</p>
-    <p>Zürich, 8050</p>
+    <p>OAT Y19, ETH Zürich</p>
 
 news: false  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
