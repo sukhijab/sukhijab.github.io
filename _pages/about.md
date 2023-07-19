@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 Hi! 
 
 I am currently pursuing a PhD in computer science at ETH Zürich. I am co-supervised by <a href="https://las.inf.ethz.ch/krausea"> Prof. Andreas Krause </a> and <a href="http://crl.ethz.ch/people/coros/index.html"> Prof. Stelian Coros</a>. 
-My research interests are Reinforcement learning, Safe leanring, and Robotics. Prior to my PhD I completed a BSc in Mechanical Engineering at ETH and a masters in Robotics at ETH as well.
+My research interests are Reinforcement learning, Safe learning, and Robotics. Prior to my PhD I completed a BSc in Mechanical Engineering at ETH and a masters in Robotics at ETH as well.
 
 Besides research, I enjoy playing football and support <a href='https://www.liverpoolfc.com/'>Liverpool FC</a>. 
 
