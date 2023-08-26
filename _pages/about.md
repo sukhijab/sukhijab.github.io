@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Bhavya Sukhija
+title: About Me
 permalink: /
 subtitle: PhD at <a href='https://ethz.ch/de.html'>ETH Zürich</a>.
 profile:
