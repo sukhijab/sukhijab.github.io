@@ -3,20 +3,23 @@
 
 @string{aps = {American Physical Society,}}
 
-@article{sukhija2022gradientbased,
-      title={Gradient-Based Trajectory Optimization With Learned Dynamics}, 
-      author={Bhavya Sukhija and Nathanael K\"ohler and Miguel Zamora and Simon Zimmermann and Sebastian Curi and Andreas Krause and Stelian Coros},
-      year={2022},
-      journal = {ar{X}iv: ar{X}iv preprint: 2204.04558 (accepted at {ICRA} 2023)},
-      preview={spot.png},
-      url = {https://arxiv.org/pdf/2204.04558.pdf},
+@inproceedings{opax,
+      title={Optimistic Active Exploration of Dynamical Systems}, 
+      author={Bhavya Sukhija and Lenart Treven and Cansu Sancaktar and Sebastian Blaes and Stelian Coros and Andreas Krause},
+      booktitle = {Proc. Neural Information Processing Systems (NeurIPS)},
+      year={2023},
+      preview={opax_intro.png},
+      url = {https://arxiv.org/pdf/2306.12371.pdf},
       bibtex_show={true},
-      blog = {/blog/2022/gradient-based-TO/},
+      blog = {/blog/2023/opax/},
+      eprint={2306.12371},
+      selected={true},
 }
+
 
 @article{SUKHIJA2023103922,
 title = {GoSafeOpt: Scalable safe exploration for global optimization of dynamical systems},
-journal = {Artificial Intelligence},
+journal = {Artificial Intelligence Journal (AIJ)},
 volume = {320},
 pages = {103922},
 year = {2023},
@@ -28,22 +31,25 @@ bibtex_show={true},
 blog = {/blog/2022/gosafeopt/},
 }
 
-@article{rothfuss2023hallucinated,
+
+@inproceedings{rothfuss2023hallucinated,
       title={Hallucinated Adversarial Control for Conservative Offline Policy Evaluation}, 
-      author={Jonas Rothfuss and Bhavya Sukhija and Tobias Birchler and Parnian Kassraie and Andreas Krause},
+      author={Jonas Rothfuss* and Bhavya Sukhija* and Tobias Birchler* and Parnian Kassraie and Andreas Krause},
       year={2023},
-       journal = {ar{X}iv: ar{X}iv preprint: 2303.01076 (accepted at {UAI} 2023)},
+       booktitle = {Conference on Uncertainty in Artificial Intelligence (UAI)},
        preview={HAMBO.png},
        url = {https://arxiv.org/pdf/2303.01076.pdf},
        bibtex_show={true},
        blog = {/blog/2023/hambo/},
+       selected={true},
 }
 
-@article{widmer2023tuning,
+
+@inproceedings{widmer2023tuning,
       title={Tuning Legged Locomotion Controllers via Safe Bayesian Optimization}, 
-      author={Daniel Widmer and Dongho Kang and Bhavya Sukhija and Jonas H\"ubotter and Andreas Krause and Stelian Coros},
+      author={Daniel Widmer* and Dongho Kang* and Bhavya Sukhija and Jonas H\"ubotter and Andreas Krause and Stelian Coros},
       year={2023},
-      journal = {ar{X}iv: ar{X}iv preprint: 2306.07092},
+        journal={Proc. Conference on Robot Learning (CoRL)},
       selected={true},
       preview={go_1.jpg},
       url = {https://arxiv.org/pdf/2306.07092.pdf},
@@ -51,17 +57,27 @@ blog = {/blog/2022/gosafeopt/},
       bibtex_show={true},
 }
 
-@article{opax,
-      title={Optimistic Active Exploration of Dynamical Systems}, 
-      author={Bhavya Sukhija and Lenart Treven and Cansu Sancaktar and Sebastian Blaes and Stelian Coros and Andreas Krause},
-      year={2023},
-      journal = {ar{X}iv: ar{X}iv preprint: 2306.12371},
-      preview={opax_intro.png},
-      url = {https://arxiv.org/pdf/2306.12371.pdf},
-      bibtex_show={true},
-      blog = {/blog/2023/opax/},
-      eprint={2306.12371},
-      selected={true},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@inproceedings{treven2023efficient,
+  title={Efficient Exploration in Continuous-time Model-based Reinforcement Learning},
+  author={Treven, Lenart and H{\"u}botter, Jonas and Sukhija, Bhavya and D{\"o}rfler, Florian and Krause, Andreas},
+  booktitle = {Proc. Neural Information Processing Systems (NeurIPS)},
+  year={2023},
+  month={December},
+  selected={true},
+  url = {https://arxiv.org/abs/2310.19848},
+  pdf = {https://arxiv.org/abs/2310.19848.pdf}  
 }
+
+@article{sukhija2022gradientbased,
+      title={Gradient-Based Trajectory Optimization With Learned Dynamics}, 
+      author={Bhavya Sukhija and Nathanael K\"ohler and Miguel Zamora and Simon Zimmermann and Sebastian Curi and Andreas Krause and Stelian Coros},
+      year={2023},
+      booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
+      preview={spot.png},
+      url = {https://arxiv.org/pdf/2204.04558.pdf},
+      bibtex_show={true},
+      blog = {/blog/2022/gradient-based-TO/},
+       selected={true},
+}
+
+
