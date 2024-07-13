@@ -21,9 +21,9 @@ Hi!
 I am pursuing a PhD in computer science at ETH Zürich. I am co-supervised by <a href="https://las.inf.ethz.ch/krausea"> Prof. Andreas Krause </a> and <a href="http://crl.ethz.ch/people/coros/index.html"> Prof. Stelian Coros</a>. 
 My research interests are Reinforcement learning (RL): model-based RL, nonepisodic RL, safe RL, meta RL, continuous time RL, exploration (multimodal) in RL, active learning and robotics. 
 
-I am currently a research visitor at University of California, Berkeley at the <a href="https://rll.berkeley.edu/"> Berkeley Robot Learning lab</a> where I am supervised by <a href="https://people.eecs.berkeley.edu/~pabbeel/"> Prof. Pieter Abbeel</a>.
+I am currently a research visitor at <a href="https://www.berkeley.edu/">University of California, Berkeley</a> at the <a href="https://rll.berkeley.edu/"> Berkeley Robot Learning lab</a> where I am supervised by <a href="https://people.eecs.berkeley.edu/~pabbeel/"> Prof. Pieter Abbeel</a>.
 
-Prior to my PhD I completed a BSc in Mechanical Engineering and a masters in Robotics at ETH. I completed my master thesis at the RWTH Aachen university under the supervision of <a href="https://baumanndominik.github.io/">Prof. Dominik Baumann</a>, <a href="https://www.dsme.rwth-aachen.de/cms/dsme/das-institut/team/~jlolt/prof-sebastian-trimpe/?allou=1">Prof. Sebastian Trimpe</a>, and Prof. Andreas Krause. I received the <a href="https://en.wikipedia.org/wiki/ETH_medal#:~:text=The%20ETH%20medal%20is%20awarded,award%20includes%20a%20cash%20prize.">ETH medal</a> for my thesis.
+Prior to my PhD I completed a BSc in Mechanical Engineering and a masters in Robotics at ETH. I completed my master thesis at the <a href="https://www.rwth-aachen.de/go/id/a/?lidx=1">RWTH Aachen university</a> under the supervision of <a href="https://baumanndominik.github.io/">Prof. Dominik Baumann</a>, <a href="https://www.dsme.rwth-aachen.de/cms/dsme/das-institut/team/~jlolt/prof-sebastian-trimpe/?allou=1">Prof. Sebastian Trimpe</a>, and Prof. Andreas Krause. I received the <a href="https://en.wikipedia.org/wiki/ETH_medal#:~:text=The%20ETH%20medal%20is%20awarded,award%20includes%20a%20cash%20prize.">ETH medal</a> for my thesis.
 
 Besides research, I enjoy playing football and support <a href='https://www.liverpoolfc.com/'>Liverpool FC</a>. 
 
