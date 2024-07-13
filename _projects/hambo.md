@@ -9,14 +9,14 @@ published: true
 date: 2023-02-01 13:58:00
 tags: [Reinforcement Learning, publication]
 authors:
-  - name: Jonas Rothfuss
+  - name: Jonas Rothfuss*
     affiliations:
       name: LAS, ETH Zurich
-  - name: Bhavya Sukhija
+  - name: Bhavya Sukhija*
     url: "https://sukhijab.github.io"
     affiliations:
       name: LAS<d-footnote>Learning & Adaptive Systems Group</d-footnote> & CRL<d-footnote>Computational Robotics Lab</d-footnote>, ETH Zurich
-  - name: Tobias Birchler
+  - name: Tobias Birchler*
   - name: Parnian Kassraie
     affiliations:
       name: LAS, ETH Zurich
@@ -30,3 +30,6 @@ We study the problem of conservative off-policy evaluation (COPE) where given an
 
 
 The paper is available <a href="https://proceedings.mlr.press/v216/rothfuss23a/rothfuss23a.pdf"> here. </a> 
+
+
+\*equal contribution.

@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
-inline: true
+date: 2024-02-29 16:11:00-0400
+inline: True
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+My wonderful master student (now PhD at <a href="https://las.inf.ethz.ch/">LAS</a>), <a href="https://jonhue.github.io/">Jonas Hübotter</a>, is awarded the ETH medal for his master thesis.
