@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>reinforcement-learning | Bhavya Sukhija</title>
+    <title>Tuning Legged Locomotion Controllers via Safe Bayesian Optimization | Bhavya Sukhija</title>
     <meta name="author" content="Bhavya  Sukhija">
-    <meta name="description" content="Personal webpage of Bhavya Sukhija.
-">
+    <meta name="description" content="A quick summary of my work about tuning legged locomotion controllers via safe Bayesian optimization.">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -39,7 +38,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://sukhijab.github.io/blog/tag/reinforcement-learning/">
+    <link rel="canonical" href="https://sukhijab.github.io/research-post/2023/07/01/safeBO.html">
 
     <!-- Dark Mode -->
     
@@ -110,49 +109,53 @@
     <!-- Content -->
     <div class="container mt-5">
       
-        <div class="post">
+        <!-- _layouts/post.html -->
+
+<div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"> <i class="fas fa-hashtag fa-sm"></i> reinforcement-learning </h1>
-    <p class="post-description"> an archive of posts with this tag </p>
+    <h1 class="post-title">Tuning Legged Locomotion Controllers via Safe Bayesian Optimization</h1>
+    <p class="post-meta">July 1, 2023</p>
+    <p class="post-tags">
+      <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+        ·  
+        <a href="/blog/tag/reinforcement-learning">
+          <i class="fas fa-hashtag fa-sm"></i> reinforcement-learning</a>  
+          <a href="/blog/tag/robotics">
+          <i class="fas fa-hashtag fa-sm"></i> robotics</a>  
+          <a href="/blog/tag/safe-learnings">
+          <i class="fas fa-hashtag fa-sm"></i> safe-learnings</a>  
+          
+        ·  
+        <a href="/blog/category/research-post">
+          <i class="fas fa-tag fa-sm"></i> research-post</a>  
+          
+
+    </p>
   </header>
 
-  <article>
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-        
-        <tr>
-          <th scope="row">Jul 1, 2023</th>
-          <td>
-              <a class="post-link" href="/research-post/2023/07/01/safeBO.html">Tuning Legged Locomotion Controllers via Safe Bayesian Optimization</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Jun 21, 2023</th>
-          <td>
-              <a class="post-link" href="/research-post/2023/06/21/opax.html">Optimistic Active Exploration of Dynamical Systems</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Feb 1, 2023</th>
-          <td>
-              <a class="post-link" href="/research-post/2023/02/01/hambo.html">Hallucinated Adversarial Control for Conservative Offline Policy Evaluation</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">May 8, 2022</th>
-          <td>
-              <a class="post-link" href="/research-post/2022/05/08/gosafeopt.html">Safe Exploration for Dynamical Systems</a>
-          </td>
-        </tr>
-      
-      </table>
+  <article class="post-content">
+    
+    <div id="markdown-content">
+      <p>In this paper, we present a data-driven strategy to simplify the deployment of
+model-based controllers in legged robotic hardware platforms. Our approach
+leverages a model-free safe learning algorithm to automate the tuning of control
+gains, addressing the mismatch between the simplified model used in the control
+formulation and the real system. This method substantially mitigates the risk of
+hazardous interactions with the robot by sample-efficiently optimizing parameters
+within a probably safe region. Additionally, we extend the applicability of our
+approach to incorporate the different gait parameters as contexts, leading to a safe,
+sample-efficient exploration algorithm capable of tuning a motion controller for
+diverse gait patterns. We validate our method through simulation and hardware
+experiments, where we demonstrate that the algorithm obtains superior performance
+on tuning a model-based motion controller for multiple gaits safely.</p>
+
+<p>The paper is available <a href="https://arxiv.org/pdf/2306.07092.pdf" rel="external nofollow noopener" target="_blank"> here, </a> and below is a video demonstration.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pceHWpFr3ng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
     </div>
   </article>
-
 </div>
 
       

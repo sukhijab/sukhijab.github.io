@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>reinforcement-learning | Bhavya Sukhija</title>
+    <title>Gradient-Based Trajectory Optimization With Learned Dynamics | Bhavya Sukhija</title>
     <meta name="author" content="Bhavya  Sukhija">
-    <meta name="description" content="Personal webpage of Bhavya Sukhija.
-">
+    <meta name="description" content="A quick summary of my work about Gradient-Based Trajectory Optimization With Learned Dynamics.">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -39,7 +38,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://sukhijab.github.io/blog/tag/reinforcement-learning/">
+    <link rel="canonical" href="https://sukhijab.github.io/research-post/2022/10/21/gradient-based-TO.html">
 
     <!-- Dark Mode -->
     
@@ -110,49 +109,36 @@
     <!-- Content -->
     <div class="container mt-5">
       
-        <div class="post">
+        <!-- _layouts/post.html -->
+
+<div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"> <i class="fas fa-hashtag fa-sm"></i> reinforcement-learning </h1>
-    <p class="post-description"> an archive of posts with this tag </p>
+    <h1 class="post-title">Gradient-Based Trajectory Optimization With Learned Dynamics</h1>
+    <p class="post-meta">October 21, 2022</p>
+    <p class="post-tags">
+      <a href="/blog/2022"> <i class="fas fa-calendar fa-sm"></i> 2022 </a>
+        ·  
+        <a href="/blog/tag/robotics">
+          <i class="fas fa-hashtag fa-sm"></i> robotics</a>  
+          
+        ·  
+        <a href="/blog/category/research-post">
+          <i class="fas fa-tag fa-sm"></i> research-post</a>  
+          
+
+    </p>
   </header>
 
-  <article>
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-        
-        <tr>
-          <th scope="row">Jul 1, 2023</th>
-          <td>
-              <a class="post-link" href="/research-post/2023/07/01/safeBO.html">Tuning Legged Locomotion Controllers via Safe Bayesian Optimization</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Jun 21, 2023</th>
-          <td>
-              <a class="post-link" href="/research-post/2023/06/21/opax.html">Optimistic Active Exploration of Dynamical Systems</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Feb 1, 2023</th>
-          <td>
-              <a class="post-link" href="/research-post/2023/02/01/hambo.html">Hallucinated Adversarial Control for Conservative Offline Policy Evaluation</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">May 8, 2022</th>
-          <td>
-              <a class="post-link" href="/research-post/2022/05/08/gosafeopt.html">Safe Exploration for Dynamical Systems</a>
-          </td>
-        </tr>
-      
-      </table>
+  <article class="post-content">
+    
+    <div id="markdown-content">
+      <p>Trajectory optimization methods have achieved an exceptional level of performance on real-world robots in recent years. These methods heavily rely on accurate analytical models of the dynamics, yet some aspects of the physical world can only be captured to a limited extent. An alternative approach is to leverage machine learning techniques to learn a differentiable dynamics model of the system from data. In this work, we use trajectory optimization and model learning for performing highly dynamic and complex tasks with robotic systems in absence of accurate analytical models of the dynamics. We show that a neural network can model highly nonlinear behaviors accurately for large time horizons, from data collected in only 25 minutes of interactions on two distinct robots: (i) the Boston Dynamics Spot and an (ii) RC car. Furthermore, we use the gradients of the neural network to perform gradient-based trajectory optimization. In our hardware experiments, we demonstrate that our learned model can represent complex dynamics for both the Spot and Radio-controlled (RC) car, and gives good performance in combination with trajectory optimization methods.</p>
+
+<p>See video  <a href="http://crl.ethz.ch/videos/spot_icra_compressed_final.mp4" rel="external nofollow noopener" target="_blank"> here.</a> The paper is available <a href="https://arxiv.org/pdf/2204.04558.pdf" rel="external nofollow noopener" target="_blank"> here.</a></p>
+
     </div>
   </article>
-
 </div>
 
       

@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>reinforcement-learning | Bhavya Sukhija</title>
+    <title>Hallucinated Adversarial Control for Conservative Offline Policy Evaluation | Bhavya Sukhija</title>
     <meta name="author" content="Bhavya  Sukhija">
-    <meta name="description" content="Personal webpage of Bhavya Sukhija.
-">
+    <meta name="description" content="A quick summary of my work about hallucinated adversarial control for conservative offline policy evaluation.">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -39,7 +38,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://sukhijab.github.io/blog/tag/reinforcement-learning/">
+    <link rel="canonical" href="https://sukhijab.github.io/research-post/2023/02/01/hambo.html">
 
     <!-- Dark Mode -->
     
@@ -110,49 +109,36 @@
     <!-- Content -->
     <div class="container mt-5">
       
-        <div class="post">
+        <!-- _layouts/post.html -->
+
+<div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"> <i class="fas fa-hashtag fa-sm"></i> reinforcement-learning </h1>
-    <p class="post-description"> an archive of posts with this tag </p>
+    <h1 class="post-title">Hallucinated Adversarial Control for Conservative Offline Policy Evaluation</h1>
+    <p class="post-meta">February 1, 2023</p>
+    <p class="post-tags">
+      <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+        ·  
+        <a href="/blog/tag/reinforcement-learning">
+          <i class="fas fa-hashtag fa-sm"></i> reinforcement-learning</a>  
+          
+        ·  
+        <a href="/blog/category/research-post">
+          <i class="fas fa-tag fa-sm"></i> research-post</a>  
+          
+
+    </p>
   </header>
 
-  <article>
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-        
-        <tr>
-          <th scope="row">Jul 1, 2023</th>
-          <td>
-              <a class="post-link" href="/research-post/2023/07/01/safeBO.html">Tuning Legged Locomotion Controllers via Safe Bayesian Optimization</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Jun 21, 2023</th>
-          <td>
-              <a class="post-link" href="/research-post/2023/06/21/opax.html">Optimistic Active Exploration of Dynamical Systems</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Feb 1, 2023</th>
-          <td>
-              <a class="post-link" href="/research-post/2023/02/01/hambo.html">Hallucinated Adversarial Control for Conservative Offline Policy Evaluation</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">May 8, 2022</th>
-          <td>
-              <a class="post-link" href="/research-post/2022/05/08/gosafeopt.html">Safe Exploration for Dynamical Systems</a>
-          </td>
-        </tr>
-      
-      </table>
+  <article class="post-content">
+    
+    <div id="markdown-content">
+      <p>We study the problem of conservative off-policy evaluation (COPE) where given an offline dataset of environment interactions, collected by other agents, we seek to obtain a (tight) lower bound on a policy’s performance. This is crucial when deciding whether a given policy satisfies certain minimal performance/safety criteria before it can be deployed in the real world. To this end, we introduce HAMBO, which builds on an uncertainty-aware learned model of the transition dynamics. To form a conservative estimate of the policy’s performance, HAMBO hallucinates worst-case trajectories that the policy may take, within the margin of the models’ epistemic confidence regions. We prove that the resulting COPE estimates are valid lower bounds, and, under regularity conditions, show their convergence to the true expected return. Finally, we discuss scalable variants of our approach based on Bayesian Neural Networks and empirically demonstrate that they yield reliable and tight lower bounds in various continuous control environments.</p>
+
+<p>The paper is available <a href="https://proceedings.mlr.press/v216/rothfuss23a/rothfuss23a.pdf" rel="external nofollow noopener" target="_blank"> here. </a></p>
+
     </div>
   </article>
-
 </div>
 
       
