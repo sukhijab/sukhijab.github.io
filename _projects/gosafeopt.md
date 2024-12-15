@@ -2,7 +2,7 @@
 layout: page
 title: Globally safe model-free exploration
 img: /assets/img/publication_preview/franka.gif
-importance: 1
+importance: 2
 category: work
 ---
 

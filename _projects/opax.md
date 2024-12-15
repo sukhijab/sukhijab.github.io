@@ -2,7 +2,7 @@
 layout: page
 title: Optimistic Active Exploration of Dynamical Systems
 img: /assets/img/publication_preview/opax_teaser.gif
-importance: 1
+importance: 2
 category: work
 layout: distill
 published: true
