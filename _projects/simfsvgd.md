@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sim-FSVGD
-img: /assets/img/publication_preview/simfsvgd.jpeg
+img: /assets/img/publication_preview/racecar_simfsvgd.gif
 importance: 1
 category: work
 layout: distill

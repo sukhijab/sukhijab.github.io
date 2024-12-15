@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Gradient-based trajectory optimization with learned dynamics
-img: /assets/img/publication_preview/spot.png
+img: /assets/img/publication_preview/spot_gradientbased.gif
 importance: 1
 category: work
 layout: distill
 published: true
-date: 2022-10-21 13:58:00
+date: 2023-2-21 13:58:00
 tags: [Robotics, publication]
 authors:
   - name: Bhavya Sukhija
