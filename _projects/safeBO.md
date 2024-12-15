@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tuning Legged Locomotion Controllers via Safe Bayesian Optimization
-img: /assets/img/publication_preview/go_1.jpg
+img: /assets/img/publication_preview/go1gosafeopt.gif
 importance: 1
 category: work
 layout: distill

@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Optimistic Active Exploration of Dynamical Systems
-img: /assets/img/publication_preview/opax_intro.png
+img: /assets/img/publication_preview/opax_teaser.gif
 importance: 1
 category: work
 layout: distill
 published: true
-date: 2023-06-21 13:58:00
+date: 2023-12-21 13:58:00
 tags: [Reinforcement Learning, publication]
 authors:
   - name: Bhavya Sukhija

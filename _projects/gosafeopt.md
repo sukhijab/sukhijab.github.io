@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Globally safe model-free exploration
-img: /assets/video/gosafeopt_videos/hardware_exp_path.png
+img: /assets/img/publication_preview/franka.gif
 importance: 1
 category: work
 ---
