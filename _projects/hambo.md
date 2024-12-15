@@ -2,7 +2,7 @@
 layout: page
 title: Hallucinated Adversarial Control for Conservative Offline Policy Evaluation
 img: /assets/img/publication_preview/HAMBO.png
-importance: 1
+importance: 3
 category: work
 layout: distill
 published: true

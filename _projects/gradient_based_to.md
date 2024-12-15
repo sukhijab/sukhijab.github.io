@@ -2,7 +2,7 @@
 layout: page
 title: Gradient-based trajectory optimization with learned dynamics
 img: /assets/img/publication_preview/spot_gradientbased.gif
-importance: 1
+importance: 3
 category: work
 layout: distill
 published: true
