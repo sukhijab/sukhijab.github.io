@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MaxInfoRL Boosting exploration in reinforcement learning through information gain maximization
+title: MaxInfoRL - Boosting exploration in reinforcement learning through information gain maximization
 img: /assets/img/publication_preview/humanoid_walk_learning.gif
 importance: 1
 category: work
