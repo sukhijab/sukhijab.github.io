@@ -158,7 +158,7 @@ function copyToClipboard() {
 [drqv2]: https://arxiv.org/pdf/2107.09645
 [drm]: https://arxiv.org/pdf/2310.19668
 [maxinfo_jax]: https://github.com/sukhijab/maxinforl_jax
-[maxinforl_sb3]: https://github.com/sukhijab/maxinforl_sb3/tree/main
+[maxinforl_sb3]: https://github.com/sukhijab/maxinforl_torch
 
 
 
