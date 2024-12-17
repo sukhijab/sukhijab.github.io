@@ -31,7 +31,7 @@ authors:
       name: RLL, UC Berkeley
 ---
 
-Paper: <a href="https://openreview.net/pdf?id=R4q3cY3kQf"> Arxiv.  
+Paper: <a href="https://arxiv.org/abs/2412.12098"> Arxiv.  
 
 Implementation: [Jax][maxinfo_jax], [PyTorch][maxinforl_sb3].
 
