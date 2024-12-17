@@ -146,7 +146,9 @@
 <p>I am pursuing a PhD in computer science at ETH Zürich. I am co-supervised by <a href="https://las.inf.ethz.ch/krausea" rel="external nofollow noopener" target="_blank"> Prof. Andreas Krause </a> and <a href="http://crl.ethz.ch/people/coros/index.html" rel="external nofollow noopener" target="_blank"> Prof. Stelian Coros</a>. 
 My research interests are Reinforcement learning (RL): model-based RL, nonepisodic RL, safe RL, meta RL, continuous time RL, exploration (multimodal) in RL, active learning and robotics.</p>
 
-<p>I am currently a visiting researcher at <a href="https://www.berkeley.edu/" rel="external nofollow noopener" target="_blank">University of California, Berkeley</a> at the <a href="https://rll.berkeley.edu/" rel="external nofollow noopener" target="_blank"> Berkeley Robot Learning lab</a> where I am supervised by <a href="https://people.eecs.berkeley.edu/~pabbeel/" rel="external nofollow noopener" target="_blank"> Prof. Pieter Abbeel</a>.</p>
+<p>Since December 2024, I have started an internstip at <a href="https://aws.amazon.com" rel="external nofollow noopener" target="_blank">Amazon Web Services</a> in Berlin as a research scientist. Currently, I am working on leveraging RL for fine-tuning LLM agents to master real-world applications.</p>
+
+<p>From July 2024 – December 2024 I was a research visitor at <a href="https://www.berkeley.edu/" rel="external nofollow noopener" target="_blank">University of California, Berkeley</a> at the <a href="https://rll.berkeley.edu/" rel="external nofollow noopener" target="_blank"> Berkeley Robot Learning lab</a> where I was supervised by <a href="https://people.eecs.berkeley.edu/~pabbeel/" rel="external nofollow noopener" target="_blank"> Prof. Pieter Abbeel</a>. During the visit, I worked on developing a class of simple, efficient and scalable algorithms for exploration in RL, see <a href="https://sukhijab.github.io/projects/maxinforl/">MaxInfoRL</a>.</p>
 
 <p>Prior to my PhD I completed a BSc in Mechanical Engineering and a masters in Robotics at ETH. I completed my master thesis at the <a href="https://www.rwth-aachen.de/go/id/a/?lidx=1" rel="external nofollow noopener" target="_blank">RWTH Aachen university</a> under the supervision of <a href="https://baumanndominik.github.io/" rel="external nofollow noopener" target="_blank">Prof. Dominik Baumann</a>, <a href="https://www.dsme.rwth-aachen.de/cms/dsme/das-institut/team/~jlolt/prof-sebastian-trimpe/?allou=1" rel="external nofollow noopener" target="_blank">Prof. Sebastian Trimpe</a>, and Prof. Andreas Krause. I received the <a href="https://en.wikipedia.org/wiki/ETH_medal#:~:text=The%20ETH%20medal%20is%20awarded,award%20includes%20a%20cash%20prize." rel="external nofollow noopener" target="_blank">ETH medal</a> for my thesis.</p>
 
@@ -157,9 +159,16 @@ My research interests are Reinforcement learning (RL): model-based RL, nonepisod
 
           <!-- News -->
           <h2><a href="/news/" style="color: inherit;">News</a></h2>          <div class="news">
-            <div class="table-responsive">
+            <div class="table-responsive" style="max-height: 60vw">
               <table class="table table-sm table-borderless">
               
+                <tr>
+                  <th scope="row">Dec 1, 2024</th>
+                  <td>
+                    Started as a research scientist intern at at <a href="https://aws.amazon.com" rel="external nofollow noopener" target="_blank"> Amazon Web Services</a>, working on leveraging RL for fine-tuning LLM agents to master real-world applications.
+
+                  </td>
+                </tr>
                 <tr>
                   <th scope="row">Jul 1, 2024</th>
                   <td>
@@ -193,6 +202,152 @@ My research interests are Reinforcement learning (RL): model-based RL, nonepisod
           <h2><a href="/publications/" style="color: inherit;">Selected publications</a></h2>
           <div class="publications">
             <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview">
+<figure>
+
+  <picture>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/humanoid_walk_learning.gif" class="preview z-depth-1 rounded" width="auto" height="auto" alt="humanoid_walk_learning.gif" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
+
+        <!-- Entry bib key -->
+        <div id="sukhija2024maxinforl" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">MaxInfoRL: Boosting exploration in reinforcement learning through information gain maximization</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <em>Bhavya Sukhija</em>, Stelian Coros, Andreas Krause, and
+          <span class="more-authors" title="click to view 2 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '2 more authors' ? 'Pieter Abbeel, Carmelo Sferrazza' : '2 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">2 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>arXiv preprint arXiv:2412.12098</em>, 2024
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://arxiv.org/pdf/2412.12098.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Link</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">sukhija2024maxinforl</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{MaxInfoRL: Boosting exploration in reinforcement learning through information gain maximization}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Sukhija, Bhavya and Coros, Stelian and Krause, Andreas and Abbeel, Pieter and Sferrazza, Carmelo}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{arXiv preprint arXiv:2412.12098}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview">
+<figure>
+
+  <picture>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/actsafe.gif" class="preview z-depth-1 rounded" width="auto" height="auto" alt="actsafe.gif" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
+
+        <!-- Entry bib key -->
+        <div id="as2024actsafe" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">ActSafe: Active Exploration with Safety Constraints for Reinforcement Learning</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Yarden As*, <em>Bhavya Sukhija*</em>, Lenart Treven, and
+          <span class="more-authors" title="click to view 3 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '3 more authors' ? 'Carmelo Sferrazza, Stelian Coros, Andreas Krause' : '3 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">3 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>arXiv preprint arXiv:2410.09486</em>, 2024
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://arxiv.org/pdf/2410.09486.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Link</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">as2024actsafe</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{ActSafe: Active Exploration with Safety Constraints for Reinforcement Learning}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{As*, Yarden and Sukhija*, Bhavya and Treven, Lenart and Sferrazza, Carmelo and Coros, Stelian and Krause, Andreas}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{arXiv preprint arXiv:2410.09486}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
