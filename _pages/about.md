@@ -21,7 +21,7 @@ Hi!
 I am pursuing a PhD in computer science at ETH Zürich. I am co-supervised by <a href="https://las.inf.ethz.ch/krausea"> Prof. Andreas Krause </a> and <a href="http://crl.ethz.ch/people/coros/index.html"> Prof. Stelian Coros</a>. 
 My research interests are Reinforcement learning (RL): model-based RL, nonepisodic RL, safe RL, meta RL, continuous time RL, exploration (multimodal) in RL, active learning and robotics. 
 
-Since December 2024, I have started an internstip at <a href="https://aws.amazon.com">Amazon Web Services</a> in Berlin as a research scientist. Currently, I am working on leveraging RL for fine-tuning LLM agents to master real-world applications.
+Since December 2024, I have started an internship at <a href="https://aws.amazon.com">Amazon Web Services</a> in Berlin as a research scientist. Currently, I am working on leveraging RL for fine-tuning LLM agents to master real-world applications.
 
 From July 2024 -- December 2024 I was a research visitor at <a href="https://www.berkeley.edu/">University of California, Berkeley</a> at the <a href="https://rll.berkeley.edu/"> Berkeley Robot Learning lab</a> where I was supervised by <a href="https://people.eecs.berkeley.edu/~pabbeel/"> Prof. Pieter Abbeel</a>. During the visit, I worked on developing a class of simple, efficient and scalable algorithms for exploration in RL, see <a href="https://sukhijab.github.io/projects/maxinforl/">MaxInfoRL</a>. 
 
