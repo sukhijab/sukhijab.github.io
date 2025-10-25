@@ -99,13 +99,13 @@ $$\pi_n = \underset{\pi \in \Pi}{\arg\max}\; \mathbb{E}_{\pi} \left[ \sum^{T-1}_
 ### SOMBRL has sublinear regret for most common RL settings
 We theoretically investigate SOMBRL and show that it represents a scalable approach for optimistic exploration in model-based RL. Moreover, we show under regularlity assumptions of the underlying system, that SOMBRL enjoys sublinear regret for the most common RL settings.
 
-**Main Theorem**: Under regularlity assumptions on the system, SOMBRL has sublinear(polylogarithmic) regret $R_N = \sum^N_{n=1} r_n$ for (i) finite-horizon, (ii) discounted infinite horizon, and (iii) non-episodic average reward settings. Here $r_n$ measures the performance gap between the optimal and current policy.
+**Main Theorem**: Under regularlity assumptions on the system, SOMBRL has sublinear (polylogarithmic) regret $R_N = \sum^N_{n=1} r_n$ for (i) finite-horizon, (ii) discounted infinite horizon, and (iii) non-episodic average reward settings. Here $r_n$ measures the performance gap between the optimal and current policy.
 
 ## Experiments
 
 ### SOMBRL is more scalable than other principled exploration methods! 
 
-We compare SOMBRL with other principled exploration algorithms in the episodic [HUCRL][hucrl]and nonepisodic setting [NeORL][neorl]. Due to the simplified optimization of SOMBRL, it outperfroms these principled methods and is also computationally cheaper! 
+We compare SOMBRL with other principled exploration algorithms in the episodic [HUCRL][hucrl] and nonepisodic setting [NeORL][neorl]. Due to the simplified optimization of SOMBRL, it outperfroms these principled methods and is also computationally cheaper! 
 <div style="text-align: center;">
 <img src="/assets/slides/sombrl/sombrl_optimism_comparison.png" width="720"/>
 </div>
@@ -114,8 +114,8 @@ We compare SOMBRL with other principled exploration algorithms in the episodic [
 
 We compare SOMBRL with other deep RL model-based methods on state-based ([MBPO][mbpo]) and visual control tasks ([Dreamerv3][dreamer]). 
 Principled exploration methods such as [HUCRL][hucrl], do not scale to these settings. 
-Whereas scalable methods such as [MBPO][mbpo]) and [Dreamerv3][dreamer] explore naively, i.e., are not principled.  
-However, due to SOMBRL's practical approach to optimistic exploration, it can be seamlessly applied to high-dimensional settings. In addition, SOMBRL is also principled and enjoys theoretical guarantees across several common RL settings. Finally, across all our experiments, SOMBRL performs the better or on-par than the SOTA deep RL baselines, while also having negligible difference in computational cost.
+Whereas scalable methods such as [MBPO][mbpo] and [Dreamerv3][dreamer] explore naively, i.e., are not principled.  
+However, due to SOMBRL's practical approach to optimistic exploration, it can be seamlessly applied to high-dimensional settings. In addition, SOMBRL is also principled and enjoys theoretical guarantees across several common RL settings. Finally, across all our experiments, SOMBRL performs the best or on-par than the SOTA deep RL baselines, while also having negligible difference in computational cost.
 <div style="text-align: center;">
 <img src="/assets/slides/sombrl/main_results_sombrl.png" width="720"/>
 </div>
@@ -134,7 +134,7 @@ However, due to SOMBRL's practical approach to optimistic exploration, it can be
 | Dreamer-Optimistic     | 46.32 +/- 0.34 min (Time per 100k steps, 5 ensembles, GPU: NVIDIA GeForce RTX 4090)                    |
 
 ### SOMBRL enables sample-efficient online learning on HW!
-We also apply SOMBRL on a real-world HW experiment. Here the task for the agent is to perform a drifting manneuver and park the highly dynamic RC car. The reward for this task is sparse. We compare SOMBRL to the SOTA model-based RL baseline: [SimFSVGD][simfsvgd],
+We also apply SOMBRL on a real-world HW experiment. Here the task for the agent is to perform a drifting manneuver and park the highly dynamic RC car. The reward for this task is sparse. We compare SOMBRL to the SOTA model-based RL baseline: [SimFSVGD][simfsvgd]. Due to its naive exploration [SimFSVGD][simfsvgd] gets stuck at a local optima whereas SOMBRL finds the optimal solution.
 <div style="text-align: center;">
 <img src="/assets/slides/sombrl/rccar_montage.gif" width="720"/>
 </div>
