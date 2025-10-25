@@ -6,7 +6,7 @@ importance: 1
 category: work
 layout: distill
 published: true
-date: 2024-12-16 13:58:00
+date: 2025-02-14 13:58:00
 tags: [Reinforcement Learning, publication]
 authors:
   - name: Bhavya Sukhija
@@ -119,8 +119,8 @@ We evaluate MaxInfoRL on hard visual control tasks from the deepmind control sui
 @article{sukhija2024maxinforl,
   title={MaxInfoRL: Boosting exploration in reinforcement learning through information gain maximization},
   author={Sukhija, Bhavya and Coros, Stelian and Krause, Andreas and Abbeel, Pieter and Sferrazza, Carmelo},
-  journal={arXiv preprint arXiv:2412.12098},
-  year={2024}
+  journal={ICLR},
+  year={2025}
 }
     </code></pre>
 </div>
