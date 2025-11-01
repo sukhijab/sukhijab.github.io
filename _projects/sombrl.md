@@ -35,8 +35,8 @@ authors:
       name: LAS, ETH Zurich
 ---
 
-Paper: <a href="https://arxiv.org/abs/2412.12098"> Arxiv.  
-
+Paper: <a href="https://openreview.net/pdf?id=eGfi5k7RP6"> NeurIPS2025.  
+Implementation: [Jax + MBPO][sombrl]
 
 
 ## Abstract
@@ -188,6 +188,7 @@ function copyToClipboard() {
 [hucrl]: https://arxiv.org/abs/2006.08684
 [neorl]: https://arxiv.org/abs/2406.01175
 [simfsvgd]: https://arxiv.org/abs/2403.16644
+[sombrl]: https://github.com/lasgroup/ombrl
 
 
 

@@ -31,7 +31,7 @@ authors:
       name: RLL, UC Berkeley
 ---
 
-Paper: <a href="https://arxiv.org/abs/2412.12098"> Arxiv.  
+Paper: <a href="https://proceedings.iclr.cc/paper_files/paper/2025/file/bd996108ed57d388866ca6deb7acf6cb-Paper-Conference.pdf"> ICLR 2025.  
 
 Implementation: [Jax][maxinfo_jax], [PyTorch][maxinforl_sb3].
 
