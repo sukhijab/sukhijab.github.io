@@ -36,7 +36,7 @@ authors:
 ---
 
 Paper: <a href="https://openreview.net/pdf?id=eGfi5k7RP6"> NeurIPS2025.  
-Implementation: [Jax + MBPO][sombrl]
+Implementation: [MBPO][sombrl]
 
 
 ## Abstract
