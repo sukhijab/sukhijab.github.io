@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Scalable and Optimistic Model-Based RL maximization
-img: /assets/slides/sombrl/rccar_montage.gif
+img: /assets/img/publication_preview/rccar_montage.gif
 importance: 1
 category: work
 layout: distill
@@ -94,12 +94,14 @@ We combine greedy exploration methods with intrinsic rewards obtained from the e
 This results in the policy update rule described below.
 
 $$\pi_n = \underset{\pi \in \Pi}{\arg\max}\; \mathbb{E}_{\pi} \left[ \sum^{T-1}_{t=0} r(x'_t, u_t) + \lambda_n ||\sigma_n(x'_t, u_t)|| \right],
-\; x'_{t+1} = \mu_n(x'_t, u_t) + w_t,$$
+\; 
+
+x'_{t+1} = \mu_n(x'_t, u_t) + w_t,$$
 
 ### SOMBRL has sublinear regret for most common RL settings
 We theoretically investigate SOMBRL and show that it represents a scalable approach for optimistic exploration in model-based RL. Moreover, we show under regularlity assumptions of the underlying system, that SOMBRL enjoys sublinear regret for the most common RL settings.
 
-**Main Theorem**: Under regularlity assumptions on the system, SOMBRL has sublinear (polylogarithmic) regret $R_N = \sum^N_{n=1} r_n$ for (i) finite-horizon, (ii) discounted infinite horizon, and (iii) non-episodic average reward settings. Here $r_n$ measures the performance gap between the optimal and current policy.
+**Main Theorem**: Under regularlity assumptions on the system, SOMBRL has sublinear regret $R_N = \sum^N_{n=1} r_n$ for (i) finite-horizon, (ii) discounted infinite horizon, and (iii) non-episodic average reward settings. Here $r_n$ measures the performance gap between the optimal and current policy.
 
 ## Experiments
 
@@ -136,7 +138,7 @@ However, due to SOMBRL's practical approach to optimistic exploration, it can be
 ### SOMBRL enables sample-efficient online learning on HW!
 We also apply SOMBRL on a real-world HW experiment. Here the task for the agent is to perform a drifting manneuver and park the highly dynamic RC car. The reward for this task is sparse. We compare SOMBRL to the SOTA model-based RL baseline: [SimFSVGD][simfsvgd]. Due to its naive exploration [SimFSVGD][simfsvgd] gets stuck at a local optima whereas SOMBRL finds the optimal solution.
 <div style="text-align: center;">
-<img src="/assets/slides/sombrl/rccar_montage.gif" width="720"/>
+<img src="/assets/img/publication_preview/rccar_montage.gif" width="720"/>
 </div>
 
 ##  Bibtex
